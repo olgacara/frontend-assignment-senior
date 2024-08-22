@@ -1,7 +1,22 @@
 import { FC } from "react";
+import "./index.scss";
+
 
 const Task1: FC = () => {
-  return <div><p>Task 1</p></div>;
+
+  // Use this api endpoint to get the users
+  // https://api.github.com/users
+
+  return (
+    <div className="dashboard">
+      {/* show the loading state here */}
+      {/* show the error if any here */}
+      {/* show the input search here*/}
+      <ul>
+        {/* show the filtered users here */}
+      </ul>
+    </div>
+  );
 };
 
 export default Task1;

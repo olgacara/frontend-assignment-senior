@@ -58,12 +58,16 @@ const Task: FunctionComponent = () => {
     case "1":
       return (
         <>
-          <h1>Task 1 - Use styles</h1>
+          <h1>Task 1 - Data Fetching and State Management</h1>
           <p className="task-description">
-            This task is mainly about <b>styling</b> in ReactJS in order to
-            create a <b>beautiful UI</b>. Use Sass to style the form with
-            interaction feedback such as hover, focus and so on. The goal is to
-            make the form as aesthetically pleasing as possible.
+            <strong>Objective:</strong> Build a paginated user list with data fetched from an API. Implement the
+            following:
+            <br />
+            <br />
+            <p>&#8226; Fetch users from a mock API using the useFetch hook.</p>
+            <p>&#8226; Allow filtering of users by their username.</p>
+            <p>&#8226; Handle loading states and display an appropriate message when no users match the filter.</p>
+            <p>&#8226; Write integration tests using ViTest.</p>
           </p>
 
           <TaskContainer>

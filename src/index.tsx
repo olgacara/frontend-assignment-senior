@@ -78,19 +78,20 @@ const Task: FunctionComponent = () => {
     case "2":
       return (
         <>
-          <h1>Task 2 - Use component composition</h1>
+          <h1>Task 2 - Component Library Creation and Theming</h1>
           <p className="task-description">
-            In this task, use your <b>React knowledge</b> to
-            make a searchable list.
+            <strong>Objective:</strong> Create a set of reusable UI components (e.g., buttons, forms, cards).
+            Implement a theming system that allows easy customization of the components. Ensure the components are
+            well-documented and easily integrable into different projects.
             <br />
             <br />
-            You must <b>encapsulate</b> the <b>UI</b> parts
-            into <b>small components</b>. This means the Input and List goes
-            into different small components. In order to communicate between the
-            input and the list, the parent component must be used by
-            passing props and managing state.
+            <p>&#8226; Develop a few core components, such as Button, Card, and Input. Ensure these components are
+              accessible, responsive, and follow best practices in UI/UX design.</p>
+            <p>&#8226; Implement a theming system that allows the components to be styled differently based on a theme
+              (e.g., light mode, dark mode, or different brand colors).</p>
+            <p>&#8226; Write unit tests for the components to ensure they function correctly. Consider edge cases, such
+              as different screen sizes, input states, and accessibility requirements.</p>
           </p>
-
           <TaskContainer>
             <Task2 />
           </TaskContainer>

@@ -4,7 +4,7 @@ import "./index.scss";
 
 const Task1: FC = () => {
 
-  // Use this api endpoint to get the users
+  // Use this api endpoint to get a list of users
   // https://api.github.com/users
 
   return (

@@ -1,27 +1,18 @@
-# Typescript Template
+# Frontend assignment :technologist:
 
-Use this repo as a template for typescript projects like shared libraries.
+## Prerequisites :package:
 
-## Commands available
+To complete this assignment on your machine you need the following installed:
 
-- build
-- watch
-- lint
-- test
+- Git
+- NodeJS
+- A code editor
+- A web browser
 
+## Get started :rocket:
 
-## Formatting and linting
-
-The repo should be set up with using the `@uniwise/eslint-config` and `@uniwise/prettier-config`. Run yarn install to install local packages for formatting and linting.
-
-**VSCode**
-
-See the `settings.example.json` file for an example VSCode workspace settings that connects eslint to the correct config file. Requires the Prettier extension `esbenp.prettier-vscode`.
-
-## Tips
-
-**yarn link**
-
-For development, a package can be linked into another project. This is often useful to test out new features or when trying to debug an issue in a package that manifests itself in another project.
-
-Too learn more see [documentation](https://classic.yarnpkg.com/en/docs/cli/link/).
+1. Fork this repository and clone it to your local machine
+2. Run `pnpm install` to install dependencies
+3. Run `pnpm start` to run the React Development server
+4. Open the application in you browser `localhost:xxxx` and follow the instructions
+5. Profit?!

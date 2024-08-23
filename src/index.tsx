@@ -100,25 +100,19 @@ const Task: FunctionComponent = () => {
     case "3":
       return (
         <>
-          <h1>Task 3 - Create a Todo List and/or Freestyle</h1>
+          <h1>Task 3 - Advanced Form Handling and Validation</h1>
           <p className="task-description">
-            This task is mainly about <b>combining different concepts</b> from
-            ReactJS in order to create a <b>small and simple application</b>.
+            <strong>Objective:</strong> Develop a multi-step form with advanced validation. Implement dynamic form
+            fields
+            that change based on user input. Provide clear feedback to the user at every step of the form process.
             <br />
             <br />
-            You can either choose to create a tiny application your self or
-            follow the description below to create a todo app:
-          </p>
-          <ul className="task-description">
-            Create todos Mark them as done See a list of done todos and a list
-            of pending todos. Search for todos Delete todos
-          </ul>
-          <p className="task-description">
-            Feel free to use Sass to style the applications and to install
-            third-party packages if needed.
-          </p>
-          <p className="task-description">
-            This task is also a great oppertunity for you to show your TypeScript knowledge.
+            <p>&#8226; Design a multi-step form that collects user data across several steps.</p>
+            <p>&#8226; Include fields that appear or change based on previous inputs.</p>
+            <p>&#8226; Ensure fields are validated as the user progresses through the form, providing immediate
+              feedback. Display error messages clearly and concisely, highlighting the fields that need correction.</p>
+            <p>&#8226; Consider using a state management library (e.g., Redux) if necessary.</p>
+            <p>&#8226; Implement a loading state and disable form submission during validation.</p>
           </p>
 
           <TaskContainer>

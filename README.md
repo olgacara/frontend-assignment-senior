@@ -1,4 +1,4 @@
-# Frontend assignment :technologist:
+# Frontend assignment by Olga :technologist:
 
 ## Prerequisites :package:
 

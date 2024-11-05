@@ -1,4 +1,11 @@
-// TODO: Implement API service calls (mock API) to fetch users and handle different scenarios
+import { useFetch } from "../hooks/useFetch";
+import { User } from "@task1/types";
 
-export const useFetch = <T>(url: string) => {
+export const fetchMockUsers = () => {
+	const result = useFetch<User[]>({
+		url: "https://api.github.com/users",
+		method: "GET"
+	});
+
+	return result;
 };
